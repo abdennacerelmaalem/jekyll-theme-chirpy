@@ -10,12 +10,12 @@
 
 title: Abdennacer El-Maalem   # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Spring & Java Developer & DevOps.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  portfolio, sidebar, side project,spring,java,spring boot,docker,devops
+  I'm a software engineer based in Morocco, focused on the Java ,Spring ecosystem and DevOps
+  to build and deploy high-quality software and application .
 
 # Replace with the website url, e.g. 'https://username.github.io'
 #url: 'localhost:8000'
@@ -23,7 +23,7 @@ url: 'https://abdennacerelmaalem.github.io'
 
 author: abdennacer el-maalem                  # change to your full name
 
-avatar: /assets/img/sample/my_image.jpg   # support internet resources
+avatar: /assets/img/sample/abdennacer_el-maalem.jpg   # support internet resources
 
 github:
   username: abdennacerelmaalem             # change to your github username
@@ -42,7 +42,7 @@ social:
     - https://www.facebook.com/abdennacer.elmaalem
     - https://www.linkedin.com/in/abdennacer-elmaalem
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: h1n8wf7E-DpPQxQOpxzSZw7ylCDjxJrsjhPwssiorvM # change to your verification string
 
 #--------------------------
 
@@ -54,7 +54,7 @@ timezone: Africa/Casablanca
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: '167461639'
+  id: 'G-8N8WY6P13P'
   # The Google Analytics pageviews switch.
 
   pv:
@@ -66,8 +66,8 @@ google_analytics:
     cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'abdennacerelmaalem'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting, available values:
@@ -204,4 +204,5 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - robots.txt
     - redirects.json
 
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-gist
